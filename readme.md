@@ -1,6 +1,6 @@
 # 网站运行监控脚本
 
-本脚本用来监控指定的url的运行状态，并且当某个url运行故障时发送通知邮件。
+本脚本用来监控指定的HTTP(S)服务的运行状态，并且当某个链接运行故障时发送通知邮件。
 
 ### 安装依赖
 ``` 
@@ -27,7 +27,7 @@ module.exports = {
 ### 使用方法
 ```
 命令格式：node ./main url url ...
-例如： node ./main  http://10.91.0.12:8080/jenkins http://10.91.0.12:8080/jenkins http://10.10.250.133:8080/jenkins/ http://10.10.250.133:8081/jenkins/
+例如： node ./main  http://baidu.com https://xxxx.com
 ```
 
 
