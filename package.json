@@ -1,0 +1,11 @@
+{
+  "name": "monitor-web-app",
+  "main": "mail.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "nodemailer": "^6.4.11"
+  },
+  "devDependencies": {
+  }
+}
